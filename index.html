@@ -1,36 +1,38 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background-color: #333;
-            color: white;
-            padding: 15px;
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
             text-align: center;
         }
-        nav {
-            background-color: #555;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
+        main {
             padding: 20px;
         }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
         footer {
-            background-color: #333;
-            color: white;
             text-align: center;
             padding: 10px;
+            background-color: #333;
+            color: #fff;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -38,33 +40,17 @@
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Bienvenido a mi página web</h1>
-    <p>Este es un ejemplo básico</p>
-</header>
-
-<nav>
-    <a href="#">Inicio</a>
-    <a href="#">Sobre mí</a>
-    <a href="#">Contacto</a>
-</nav>
-
-<div class="container">
-    <h2>Contenido principal</h2>
-    <p>Esta es una página web sencilla hecha con HTML y CSS.</p>
-
-    <h3>Lista de ejemplo:</h3>
-    <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-    </ul>
-</div>
-
-<footer>
-    <p>&copy; 2026 Mi Página Web</p>
-</footer>
-
+    <header>
+        <h1>Bienvenido</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Mi Tarea</h2>
+            <p>Este es un ejemplo básico de una página web moderna creada con HTML y CSS.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Mi Página Web</p>
+    </footer>
 </body>
 </html>
